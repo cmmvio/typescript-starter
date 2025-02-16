@@ -1,18 +1,10 @@
-import { Application } from "@cmmv/core";
+import { Application } from '@cmmv/core';
 
-import {
-    DefaultAdapter,
-    DefaultHTTPModule
-} from "@cmmv/http";
+import { DefaultAdapter, DefaultHTTPModule } from '@cmmv/http';
 
-import {
-    AppModule
-} from "./app.module";
+import { AppModule } from './app.module';
 
 Application.create({
     httpAdapter: DefaultAdapter,
-    modules: [
-        DefaultHTTPModule,
-        AppModule
-    ]
+    modules: [DefaultHTTPModule, AppModule],
 });

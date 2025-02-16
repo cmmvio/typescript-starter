@@ -1,11 +1,6 @@
-import {
-    Controller,
-    Get,
-} from '@cmmv/http';
+import { Controller, Get } from '@cmmv/http';
 
-import {
-    AppService
-} from './app.service';
+import { AppService } from './app.service';
 
 @Controller()
 export class AppController {
