@@ -7,9 +7,9 @@
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
-		"dev": "cmmv dev",
+		"dev": "cmmv dev --watch --debug",
 		"build": "cmmv build",
-		"start": "node dist/main.js",
+		"start": "cmmv start",
 		"test": "vitest",
 		"lint": "eslint \"src/**/*.ts\" --fix --debug",
 		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
@@ -21,7 +21,7 @@
 		"@cmmv/view": "^0.8.18"
 	},
 	"devDependencies": {
-		"@cmmv/cli": "^0.5.1",
+		"@cmmv/cli": "^0.5.3",
 		"@eslint/eslintrc": "^3.2.0",
 		"@eslint/js": "^9.20.0",
 		"@tsconfig/node22": "^22.0.0",
