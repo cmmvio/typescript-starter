@@ -1,6 +1,6 @@
-import { Service } from "@cmmv/core";
+import { Service } from '@cmmv/core';
 
-@Service("app")
+@Service('app')
 export class AppService {
     getHello(): string {
         return 'Hello World!';
