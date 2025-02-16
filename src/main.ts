@@ -1,7 +1,8 @@
 import { Application } from "@cmmv/core";
 
 import {
-    DefaultAdapter, DefaultHTTPModule
+    DefaultAdapter,
+    DefaultHTTPModule
 } from "@cmmv/http";
 
 import {
