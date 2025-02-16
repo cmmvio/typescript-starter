@@ -7,6 +7,15 @@
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
-		
+		"dev": "cmmv dev --watch",
+		"build": "cmmv build",
+		"start": "node dist/main"
+	},
+	"dependencies": {
+		"@cmmv/core": "^0.8.17",
+		"@cmmv/testing": "^0.8.17"
+	},
+	"devDependencies": {
+		"@cmmv/cli": "^0.4.0"
 	}
 }
