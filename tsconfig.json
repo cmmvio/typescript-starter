@@ -15,6 +15,7 @@
         "esModuleInterop": false,
         "strictNullChecks": false,
         "resolveJsonModule": true,
+        "noImplicitAny": false,
         "lib": ["esnext", "dom"],
         "types": ["node"],
         "paths": {

@@ -7,6 +7,7 @@
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
+        "postinstall": "pnpm approve-builds",
 		"dev": "cmmv dev --debug",
 		"build": "cmmv build",
 		"start": "cmmv start",
