@@ -7,7 +7,7 @@
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
-		"dev": "cmmv dev --watch --debug",
+		"dev": "cmmv dev --debug",
 		"build": "cmmv build",
 		"start": "cmmv start",
         "lint": "cmmv lint",

@@ -10,7 +10,7 @@
         "target": "ESNext",
         "sourceMap": true,
         "outDir": "dist",
-        "baseUrl": "src",
+        "baseUrl": ".",
         "skipLibCheck": true,
         "esModuleInterop": false,
         "strictNullChecks": false,
