@@ -12,7 +12,7 @@
         "outDir": "dist",
         "baseUrl": ".",
         "skipLibCheck": true,
-        "esModuleInterop": false,
+        "esModuleInterop": true,
         "strictNullChecks": false,
         "resolveJsonModule": true,
         "noImplicitAny": false,

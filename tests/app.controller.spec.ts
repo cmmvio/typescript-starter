@@ -2,7 +2,6 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import { AppController } from '../src/app.controller';
 import { AppService } from '../src/app.service';
 
-// Mockando o AppService
 class MockAppService {
     getHello(): string {
         return 'Hello from Mock!';
