@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@cmmv/core':
-        specifier: ^0.8.23
-        version: 0.8.23
+        specifier: ^0.8.25
+        version: 0.8.25
       '@cmmv/http':
-        specifier: ^0.8.23
-        version: 0.8.23
+        specifier: ^0.8.25
+        version: 0.8.25
       '@cmmv/testing':
-        specifier: ^0.8.23
-        version: 0.8.23
+        specifier: ^0.8.25
+        version: 0.8.25
       '@cmmv/view':
-        specifier: ^0.8.23
-        version: 0.8.23
+        specifier: ^0.8.25
+        version: 0.8.25
     devDependencies:
       '@cmmv/cli':
         specifier: ^0.7.4
@@ -39,6 +39,9 @@ importers:
       conventional-changelog-cli:
         specifier: ^5.0.0
         version: 5.0.0(conventional-commits-filter@5.0.0)
+      esbuild:
+        specifier: ^0.25.0
+        version: 0.25.0
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -59,53 +62,53 @@ packages:
     resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
 
-  '@cmmv/body-parser@0.8.7':
-    resolution: {integrity: sha512-16A66Lnd9EKQqZkKZUxN2YGOM2QK6TpR6lF2BHHlpVnRXT5cPC8FN54bxgn9fjSMzj3AhTOwaNzi/mRUyFW+zQ==}
+  '@cmmv/body-parser@0.9.0':
+    resolution: {integrity: sha512-e8C2ZZHnz1kF5qOrtpCkTtn6Lxk0gXy1HmWAbSisc0Nub9zPFhInoU71/KFiL9uZ3sc2X765tOmcJyhsxFACng==}
 
   '@cmmv/cli@0.7.4':
     resolution: {integrity: sha512-hbFapmZ5EVELYOMn1WFeHuT47wIhBasfymvPcdUyh6vNyVBsAzhmesZszRdlVv2UQUS+V6aYeB09c6PqfZaEmQ==}
     engines: {node: '>=16.14'}
     hasBin: true
 
-  '@cmmv/compression@0.8.7':
-    resolution: {integrity: sha512-txLfwOy4E3KxMtFeJr837r/tpwpitizbQEhjvmogEmDxpYu8is9Gr5eQsalyGlJZW2yxTJHVpoxd+2rgS+EJ5Q==}
+  '@cmmv/compression@0.9.0':
+    resolution: {integrity: sha512-DGDsHSYiPSbJsa3SWaQ8pipazUHkvFusVPZQ7x5ib4rzuouI8mA9Tn2BV/foVwkdHk2TktjD3tl0XYijVIGqyw==}
 
-  '@cmmv/cookie-parser@0.8.7':
-    resolution: {integrity: sha512-fcDDXcGgFxBJNovhae0Jh8KFLW6p8TaZBZepCzjU8VTsLFjmD+/+yGYadFMnL/WN0zAJ70V7bFh0V3uA5aTjcg==}
+  '@cmmv/cookie-parser@0.9.0':
+    resolution: {integrity: sha512-F33wRvsvdxXt3z3+LfHgcdSyblHGVXDqwjff1ItmyJmU9O88Zsi2S4+NuR0+T6CIWU4N4kRdUpNs+4QuPp1iqw==}
 
-  '@cmmv/core@0.8.23':
-    resolution: {integrity: sha512-xZslBOjc8RRCeGEj5FAJBG8y3Vw2Q+djHCda66uxB2DjTtXf1FgmRQbWZuc4TC5FVxbs3nAZt8rvBGJq5BhQcg==}
+  '@cmmv/core@0.8.25':
+    resolution: {integrity: sha512-fOqhelYu6zgoi5wv9j1ZpM6tNP3ob7fo8EUxoIaOQJm40qBTsYldBe81Gx0P3/UkrQPPwsOj9GY6ycTclxs6aw==}
 
-  '@cmmv/cors@0.8.7':
-    resolution: {integrity: sha512-xal0wlLa+W1NLzj6C32+hCaqt3BLA0pN6UYYwan3SBja3WdcxWC0x+R8ZPoQRjdq/SvHmDiJbPi00lYaXOlypA==}
+  '@cmmv/cors@0.9.0':
+    resolution: {integrity: sha512-neqAzaQWs26oJn+kn9Ixjr8UTJkQLgIkVrfTRW9qHtBMflZC+pIYuKrPu1x2V/NzPnzdyxKDZd8nbH71h+7UzQ==}
 
-  '@cmmv/etag@0.8.7':
-    resolution: {integrity: sha512-5uyABUX8X895tmIqZWP34xHDNXdGTnXnwNUQy3UMGvkgbFK8ztauywYvMU1PypEyErWhUxCQmI1izd1mHXg07g==}
+  '@cmmv/etag@0.9.0':
+    resolution: {integrity: sha512-TUjC+aZzbozp3N/MokhIO9QCTZzSU+EawqK/roGn0clKIFtmt4Ogu+Q/bK8Be5Y+Mkq8y+NVl4TrqYg4qyUgLQ==}
 
-  '@cmmv/helmet@0.8.7':
-    resolution: {integrity: sha512-4Rx+dqEFE6Fuqf/nRV3D96CyyPydOAVRnhDzwcb9PNwuCGgDhssRRzYTbQqZK80JT8XLHaR4ksqKA88al53eWQ==}
+  '@cmmv/helmet@0.9.0':
+    resolution: {integrity: sha512-054XpvpdOIpYmVirPH6fduLmVrQunEMRXUWSO0eRXxqRqv7+cCXTCcRxG5fpb1OxIxuBU/TS5gnjnZko7PRZvg==}
 
-  '@cmmv/http@0.8.23':
-    resolution: {integrity: sha512-yrAkjDPu9B3vFy6g4059sXJNVb0BfhTmKaAb7DxZ2hIgmDvyhVlbt5pL44qqD5J7ZOU+VMrt30lqMD7WmbfLJg==}
+  '@cmmv/http@0.8.25':
+    resolution: {integrity: sha512-9zM6+PgEZxEueytJ55+LcHy2MWC7gYCK6MPo5b0Dc7c78S3NCAg3TzkdcCh5iPWY1AidKr2eiFaA7Gq7i8RWRQ==}
 
-  '@cmmv/protobuf@0.8.23':
-    resolution: {integrity: sha512-vTMvjN6nWxz/yQq3TmjiCEFBRrj/5Qj5JKS3KepIk60HDpqy4PQ/SYJChfQ5Vc7KBEhFGhrGCq6MHveoGnzi/g==}
+  '@cmmv/protobuf@0.8.25':
+    resolution: {integrity: sha512-LmF04uScwQqYVbxktqC+zmhkaThogxjS/nWe7aSgT2MNbg4TEty49+77ZDTKlpcW543WXq5I2Yynd+nitLSJ9A==}
 
   '@cmmv/reactivity@0.4.8':
     resolution: {integrity: sha512-WyhX0qWtPAvgsJLpDnsYKPWPAGjH8P7w3rFuwCuGr4/vlYIxi9pajkuY/uDZZc3EZ2eqmvK+SfwB/02u2FQWIA==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  '@cmmv/server-static@0.8.7':
-    resolution: {integrity: sha512-2uJ7B6TtnEsNt0T1YhijBRHNuIgMRus9uRjE5hwTwOYgC0ScdYnF/APFmxMHG0LNZIhI4gJ8siDwspjsKYCodg==}
+  '@cmmv/server-static@0.9.0':
+    resolution: {integrity: sha512-QqwsraPPPJOaOLuM6O7DvhV5CZr4D0bnwpXcQlZBdYg5fFI0WLKI7Q8rHS/ow9gmmOq0pDH6f6DnhjH+pb0CQA==}
 
-  '@cmmv/server@0.8.7':
-    resolution: {integrity: sha512-XR4++dd47pbwRtya5fA4O39A05EGYHRxpZL7nhDcmnx8UqHkzieLtmFuaNdRWJGiY0qtm+Wp0DvE9yHs1Q8qaw==}
+  '@cmmv/server@0.9.0':
+    resolution: {integrity: sha512-/Oj37zSW2Pu2Q6VTT/oDHw+Tq61omGA/f/p5I+55HUxw1JssrqAgadCe1gZNMOPzW5eui1423/PqvTsjzyIK2Q==}
 
-  '@cmmv/testing@0.8.23':
-    resolution: {integrity: sha512-+dV1POXKC5+TK8LvBE34Q90l73x6rHDhDYx/WBYz7BRg7jpnN09eXVg87p5V5D4r2Dl6LRTS5IPbPZn/bTjzdg==}
+  '@cmmv/testing@0.8.25':
+    resolution: {integrity: sha512-ec0NT2j9lmPaHWC5wkGb0mCfO6JhYgt3z4vmzLGDv177ZZNHjqHLccLd415fVYuT4kr0fMij+BhYvs5NpYSeKA==}
 
-  '@cmmv/view@0.8.23':
-    resolution: {integrity: sha512-IKghZxLmQjWpzj8LbIWo0PYnki0j+ZtqoDrhj9lcTbNDy06qTSyH3PcaGrDZBsx7LR0BYHYnC3LGZ5fdkBLEWg==}
+  '@cmmv/view@0.8.25':
+    resolution: {integrity: sha512-kcIJLAvXo4DsI2D6Lh12GObKdXc3AnGgas15k+efPX+CgIBjwpljONQCkOLCPG/mRqxfN9KRBXw4erjwgAUK4A==}
 
   '@commitlint/cli@19.7.1':
     resolution: {integrity: sha512-iObGjR1tE/PfDtDTEfd+tnRkB3/HJzpQqRTyofS2MPPkDn1mp3DBC8SoPDayokfAy+xKhF8+bwRCJO25Nea0YQ==}
@@ -1572,6 +1575,10 @@ packages:
   cookie@0.6.0:
     resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
     engines: {node: '>= 0.6'}
+
+  cookie@1.0.2:
+    resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
+    engines: {node: '>=18'}
 
   cookies@0.9.1:
     resolution: {integrity: sha512-TG2hpqe4ELx54QER/S3HQ9SRVnQnGBtKUz5bLQWtYAQ+o6GpgMs6sYUvaiJjVxb+UXwhRhAEP3m7LbsIZ77Hmw==}
@@ -3315,7 +3322,7 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.25.9': {}
 
-  '@cmmv/body-parser@0.8.7':
+  '@cmmv/body-parser@0.9.0':
     dependencies:
       async_hooks: 1.0.0
       bytes: 3.1.2
@@ -3329,7 +3336,7 @@ snapshots:
 
   '@cmmv/cli@0.7.4(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))':
     dependencies:
-      '@cmmv/core': 0.8.23
+      '@cmmv/core': 0.8.25
       '@commitlint/cli': 19.7.1(@types/node@22.13.5)(typescript@5.7.3)
       '@commitlint/config-angular': 19.7.1
       '@commitlint/config-conventional': 19.7.1
@@ -3375,23 +3382,23 @@ snapshots:
       - eslint
       - supports-color
 
-  '@cmmv/compression@0.8.7':
+  '@cmmv/compression@0.9.0':
     dependencies:
       accepts: 1.3.8
       compressible: 2.0.18
       on-headers: 1.0.2
       vary: 1.1.2
 
-  '@cmmv/cookie-parser@0.8.7':
+  '@cmmv/cookie-parser@0.9.0':
     dependencies:
       accepts: 1.3.8
       compressible: 2.0.18
-      cookie: 0.6.0
+      cookie: 1.0.2
       cookies: 0.9.1
       on-headers: 1.0.2
       vary: 1.1.2
 
-  '@cmmv/core@0.8.23':
+  '@cmmv/core@0.8.25':
     dependencies:
       class-transformer: 0.5.1
       class-validator: 0.14.1
@@ -3403,7 +3410,7 @@ snapshots:
       uglify-js: 3.19.3
       uuid: 10.0.0
 
-  '@cmmv/cors@0.8.7':
+  '@cmmv/cors@0.9.0':
     dependencies:
       accepts: 1.3.8
       compressible: 2.0.18
@@ -3412,27 +3419,28 @@ snapshots:
       on-headers: 1.0.2
       vary: 1.1.2
 
-  '@cmmv/etag@0.8.7': {}
+  '@cmmv/etag@0.9.0': {}
 
-  '@cmmv/helmet@0.8.7':
+  '@cmmv/helmet@0.9.0':
     dependencies:
       helmet: 8.0.0
 
-  '@cmmv/http@0.8.23':
+  '@cmmv/http@0.8.25':
     dependencies:
-      '@cmmv/body-parser': 0.8.7
-      '@cmmv/compression': 0.8.7
-      '@cmmv/cookie-parser': 0.8.7
-      '@cmmv/cors': 0.8.7
-      '@cmmv/etag': 0.8.7
-      '@cmmv/helmet': 0.8.7
-      '@cmmv/server': 0.8.7
-      '@cmmv/server-static': 0.8.7
+      '@cmmv/body-parser': 0.9.0
+      '@cmmv/compression': 0.9.0
+      '@cmmv/cookie-parser': 0.9.0
+      '@cmmv/cors': 0.9.0
+      '@cmmv/etag': 0.9.0
+      '@cmmv/helmet': 0.9.0
+      '@cmmv/server': 0.9.0
+      '@cmmv/server-static': 0.9.0
+      '@cmmv/view': 0.8.25
       fast-json-stringify: 6.0.1
     transitivePeerDependencies:
       - supports-color
 
-  '@cmmv/protobuf@0.8.23':
+  '@cmmv/protobuf@0.8.25':
     dependencies:
       fast-glob: 3.3.3
       protobufjs: 7.4.0
@@ -3442,7 +3450,7 @@ snapshots:
     dependencies:
       '@vue/reactivity': 3.5.13
 
-  '@cmmv/server-static@0.8.7':
+  '@cmmv/server-static@0.9.0':
     dependencies:
       '@fastify/accept-negotiator': 1.1.0
       '@fastify/send': 3.3.1
@@ -3458,10 +3466,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@cmmv/server@0.8.7':
+  '@cmmv/server@0.9.0':
     dependencies:
-      '@cmmv/body-parser': 0.8.7
-      '@cmmv/server-static': 0.8.7
+      '@cmmv/body-parser': 0.9.0
+      '@cmmv/server-static': 0.9.0
       '@fastify/send': 3.3.1
       accepts: 1.3.8
       after: 0.8.2
@@ -3488,13 +3496,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@cmmv/testing@0.8.23':
-    dependencies:
-      '@cmmv/core': 0.8.23
+  '@cmmv/testing@0.8.25': {}
 
-  '@cmmv/view@0.8.23':
+  '@cmmv/view@0.8.25':
     dependencies:
-      '@cmmv/protobuf': 0.8.23
+      '@cmmv/protobuf': 0.8.25
       '@cmmv/reactivity': 0.4.8
       fast-glob: 3.3.3
       html-minifier-terser: 7.2.0
@@ -4813,6 +4819,8 @@ snapshots:
       meow: 13.2.0
 
   cookie@0.6.0: {}
+
+  cookie@1.0.2: {}
 
   cookies@0.9.1:
     dependencies:
