@@ -22,8 +22,8 @@ importers:
         version: 0.8.23
     devDependencies:
       '@cmmv/cli':
-        specifier: ^0.6.2
-        version: 0.6.2(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))
+        specifier: ^0.7.4
+        version: 0.7.4(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))
       '@swc-node/register':
         specifier: ^1.10.9
         version: 1.10.9(@swc/core@1.10.18(@swc/helpers@0.5.15))(@swc/types@0.1.17)(typescript@5.7.3)
@@ -62,8 +62,8 @@ packages:
   '@cmmv/body-parser@0.8.7':
     resolution: {integrity: sha512-16A66Lnd9EKQqZkKZUxN2YGOM2QK6TpR6lF2BHHlpVnRXT5cPC8FN54bxgn9fjSMzj3AhTOwaNzi/mRUyFW+zQ==}
 
-  '@cmmv/cli@0.6.2':
-    resolution: {integrity: sha512-Pj0fkAM1qBUY2IU+yvHPORWzF/mHt+F8z1n8w1InIHJIhVA58eMurmJaMM86U9GnrcXPjfdoRJQpMJq/APxrbA==}
+  '@cmmv/cli@0.7.4':
+    resolution: {integrity: sha512-hbFapmZ5EVELYOMn1WFeHuT47wIhBasfymvPcdUyh6vNyVBsAzhmesZszRdlVv2UQUS+V6aYeB09c6PqfZaEmQ==}
     engines: {node: '>=16.14'}
     hasBin: true
 
@@ -1975,8 +1975,8 @@ packages:
     resolution: {integrity: sha512-vpeMIQKxczTD/0s2CdEWHcb0eeJe6TFjxb+J5xgX7hScxqrGuyjmv4c1D4A/gelKfyox0gJJwIHF+fLjeaM8kQ==}
     engines: {node: '>=18'}
 
-  get-intrinsic@1.2.7:
-    resolution: {integrity: sha512-VW6Pxhsrk0KAOqs3WEd0klDiF/+V7gQOpAvY1jVU/LHmaD/kQO4523aiJuikX/QAKYiW6x8Jh+RJej1almdtCA==}
+  get-intrinsic@1.3.0:
+    resolution: {integrity: sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==}
     engines: {node: '>= 0.4'}
 
   get-proto@1.0.1:
@@ -3327,7 +3327,7 @@ snapshots:
       type-is: 1.6.18
       unpipe: 1.0.0
 
-  '@cmmv/cli@0.6.2(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))':
+  '@cmmv/cli@0.7.4(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))':
     dependencies:
       '@cmmv/core': 0.8.23
       '@commitlint/cli': 19.7.1(@types/node@22.13.5)(typescript@5.7.3)
@@ -4596,7 +4596,7 @@ snapshots:
   call-bound@1.0.3:
     dependencies:
       call-bind-apply-helpers: 1.0.2
-      get-intrinsic: 1.2.7
+      get-intrinsic: 1.3.0
 
   callsites@3.1.0: {}
 
@@ -5269,7 +5269,7 @@ snapshots:
 
   get-east-asian-width@1.3.0: {}
 
-  get-intrinsic@1.2.7:
+  get-intrinsic@1.3.0:
     dependencies:
       call-bind-apply-helpers: 1.0.2
       es-define-property: 1.0.1
@@ -6102,14 +6102,14 @@ snapshots:
     dependencies:
       call-bound: 1.0.3
       es-errors: 1.3.0
-      get-intrinsic: 1.2.7
+      get-intrinsic: 1.3.0
       object-inspect: 1.13.4
 
   side-channel-weakmap@1.0.2:
     dependencies:
       call-bound: 1.0.3
       es-errors: 1.3.0
-      get-intrinsic: 1.2.7
+      get-intrinsic: 1.3.0
       object-inspect: 1.13.4
       side-channel-map: 1.0.1
 

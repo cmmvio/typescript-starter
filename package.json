@@ -7,8 +7,7 @@
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {
-		"postinstall": "pnpm approve-builds",
-		"dev": "cmmv dev --debug",
+		"dev": "cmmv dev --watch --debug",
 		"build": "cmmv build",
 		"start": "cmmv start",
 		"lint": "cmmv lint",
@@ -30,7 +29,7 @@
 		"@cmmv/view": "^0.8.23"
 	},
 	"devDependencies": {
-		"@cmmv/cli": "^0.6.2",
+		"@cmmv/cli": "^0.7.4",
 		"@swc-node/register": "^1.10.9",
 		"@tsconfig/node22": "^22.0.0",
 		"@types/node": "^22.13.5",
