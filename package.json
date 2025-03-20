@@ -1,6 +1,6 @@
 {
 	"name": "cmmv-project",
-	"version": "0.0.2",
+	"version": "0.0.1",
 	"description": "",
 	"keywords": [],
 	"author": "",
@@ -24,7 +24,9 @@
 	},
 	"dependencies": {
 		"@cmmv/core": "latest",
-		"@cmmv/http": "latest"
+		"@cmmv/http": "latest",
+		"dotenv": "^16.4.7",
+		"reflect-metadata": "^0.2.2"
 	},
 	"devDependencies": {
 		"@cmmv/cli": "latest",
