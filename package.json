@@ -19,7 +19,9 @@
 			".generated",
 			"src/models",
 			"src/entities",
-			"public"
+			"public",
+			"database.sqlite",
+			"database.sqlite-journal"
 		]
 	},
 	"dependencies": {
