@@ -15,6 +15,10 @@
 		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
 	},
 	"dev": {
+        "watch": [
+			"src",
+            "public"
+		],
 		"ignore": [
 			".generated",
 			"src/models",
