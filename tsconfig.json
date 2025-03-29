@@ -1,8 +1,8 @@
 {
     "extends": "@tsconfig/node22/tsconfig.json",
     "compilerOptions": {
-        "module": "commonjs",
-        "moduleResolution": "node",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
         "declaration": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
