@@ -25,6 +25,9 @@ $ pnpm install
 # development
 $ pnpm dev
 
+# build
+$ pnpm build
+
 # production mode
 $ pnpm start
 ```
